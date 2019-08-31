@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>MenThatLoveTDS</Name>
+    <RootNamespace>MenThatLoveTDS</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7a20caf2-f452-4750-bbc2-d0090ab5e5e8</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>MenThatLoveTDS.settings</DjangoSettingsModule>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\forms.py" />
+    <Compile Include="app\models.py" />
+    <Compile Include="app\tests.py" />
+    <Compile Include="app\views.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="MenThatLoveTDS\__init__.py" />
+    <Compile Include="MenThatLoveTDS\settings.py" />
+    <Compile Include="MenThatLoveTDS\urls.py" />
+    <Compile Include="MenThatLoveTDS\wsgi.py" />
+    <Compile Include="yahoodata\admin.py" />
+    <Compile Include="yahoodata\apps.py" />
+    <Compile Include="yahoodata\Data Analysis\Data Transformations.py" />
+    <Compile Include="yahoodata\fantasy_stats.py" />
+    <Compile Include="yahoodata\Initial_Setup\get_league_info.py" />
+    <Compile Include="yahoodata\Initial_Setup\league_authorization.py" />
+    <Compile Include="yahoodata\migrations\__init__.py" />
+    <Compile Include="yahoodata\models.py" />
+    <Compile Include="yahoodata\tests.py" />
+    <Compile Include="yahoodata\views.py" />
+    <Compile Include="yahoodata\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\migrations\" />
+    <Folder Include="app\static\" />
+    <Folder Include="app\static\app\" />
+    <Folder Include="app\static\app\content\" />
+    <Folder Include="app\static\app\fonts\" />
+    <Folder Include="app\static\app\scripts\" />
+    <Folder Include="app\templates\" />
+    <Folder Include="app\templates\app\" />
+    <Folder Include="MenThatLoveTDS\" />
+    <Folder Include="yahoodata\" />
+    <Folder Include="yahoodata\auth\" />
+    <Folder Include="yahoodata\Data Analysis\" />
+    <Folder Include="yahoodata\Data Analysis\weekly_rosters\" />
+    <Folder Include="yahoodata\Data Analysis\weekly_scores\" />
+    <Folder Include="yahoodata\Initial_Setup\" />
+    <Folder Include="yahoodata\migrations\" />
+    <Folder Include="yahoodata\rosters\" />
+    <Folder Include="yahoodata\rosters\week_10\" />
+    <Folder Include="yahoodata\rosters\week_11\" />
+    <Folder Include="yahoodata\rosters\week_12\" />
+    <Folder Include="yahoodata\rosters\week_13\" />
+    <Folder Include="yahoodata\rosters\week_14\" />
+    <Folder Include="yahoodata\rosters\week_15\" />
+    <Folder Include="yahoodata\rosters\week_16\" />
+    <Folder Include="yahoodata\rosters\week_1\" />
+    <Folder Include="yahoodata\rosters\week_2\" />
+    <Folder Include="yahoodata\rosters\week_3\" />
+    <Folder Include="yahoodata\rosters\week_4\" />
+    <Folder Include="yahoodata\rosters\week_5\" />
+    <Folder Include="yahoodata\rosters\week_6\" />
+    <Folder Include="yahoodata\rosters\week_7\" />
+    <Folder Include="yahoodata\rosters\week_8\" />
+    <Folder Include="yahoodata\rosters\week_9\" />
+    <Folder Include="yahoodata\teams\" />
+    <Folder Include="yahoodata\templates\" />
+    <Folder Include="yahoodata\templates\yahoodata\" />
+    <Folder Include="yahoodata\transactions\" />
+    <Folder Include="yahoodata\weekly_players\" />
+    <Folder Include="yahoodata\weekly_scoreboard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\templates\app\home.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="db.sqlite3" />
+    <Content Include="app\static\app\content\bootstrap.css" />
+    <Content Include="app\static\app\content\bootstrap.min.css" />
+    <Content Include="app\static\app\content\site.css" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="app\static\app\scripts\bootstrap.js" />
+    <Content Include="app\static\app\scripts\bootstrap.min.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.min.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.min.map" />
+    <Content Include="app\static\app\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.min.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="app\static\app\scripts\modernizr-2.6.2.js" />
+    <Content Include="app\static\app\scripts\respond.js" />
+    <Content Include="app\static\app\scripts\respond.min.js" />
+    <Content Include="app\static\app\scripts\_references.js" />
+    <Content Include="app\templates\app\about.html" />
+    <Content Include="app\templates\app\contact.html" />
+    <Content Include="app\templates\app\index.html" />
+    <Content Include="app\templates\app\layout.html" />
+    <Content Include="app\templates\app\login.html" />
+    <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="yahoodata\auth\oauth2yahoo.json" />
+    <Content Include="yahoodata\Data Analysis\Data Frame Transformations.ipynb" />
+    <Content Include="yahoodata\Data Analysis\Data Visualizations.ipynb" />
+    <Content Include="yahoodata\Data Analysis\weekly_rosters\placeholder.json" />
+    <Content Include="yahoodata\Data Analysis\weekly_scores\placeholder.json" />
+    <Content Include="yahoodata\Initial_Setup\league_authorization.ipynb" />
+    <Content Include="yahoodata\Initial_Setup\league_info_form.txt" />
+    <Content Include="yahoodata\Initial_Setup\Test_Notebook.ipynb" />
+    <Content Include="yahoodata\Initial_Setup\YahooGameInfo.json" />
+    <Content Include="yahoodata\league.json" />
+    <Content Include="yahoodata\LICENSE" />
+    <Content Include="yahoodata\README.md" />
+    <Content Include="yahoodata\rosters\week_10\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_10\team_10_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_11_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_12_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_1_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_2_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_3_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_4_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_5_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_6_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_7_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_8_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_10\team_9_wk_10_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_11\team_10_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_11_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_12_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_1_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_2_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_3_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_4_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_5_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_6_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_7_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_8_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_11\team_9_wk_11_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_12\team_10_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_11_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_12_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_1_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_2_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_3_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_4_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_5_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_6_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_7_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_8_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_12\team_9_wk_12_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_13\team_10_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_11_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_12_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_1_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_2_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_3_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_4_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_5_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_6_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_7_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_8_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_13\team_9_wk_13_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_14\team_10_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_11_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_12_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_1_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_2_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_3_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_4_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_5_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_6_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_7_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_8_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_14\team_9_wk_14_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_15\team_10_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_11_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_12_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_1_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_2_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_3_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_4_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_5_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_6_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_7_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_8_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_15\team_9_wk_15_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_16\team_10_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_11_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_12_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_1_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_2_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_3_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_4_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_5_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_6_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_7_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_8_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_16\team_9_wk_16_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_1\team_10_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_11_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_12_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_1_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_2_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_3_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_4_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_5_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_6_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_7_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_8_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_1\team_9_wk_1_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_2\team_10_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_11_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_12_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_1_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_2_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_3_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_4_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_5_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_6_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_7_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_8_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_2\team_9_wk_2_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_3\team_10_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_11_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_12_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_1_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_2_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_3_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_4_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_5_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_6_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_7_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_8_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_3\team_9_wk_3_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_4\team_10_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_11_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_12_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_1_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_2_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_3_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_4_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_5_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_6_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_7_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_8_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_4\team_9_wk_4_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_5\team_10_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_11_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_12_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_1_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_2_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_3_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_4_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_5_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_6_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_7_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_8_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_5\team_9_wk_5_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_6\team_10_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_11_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_12_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_1_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_2_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_3_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_4_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_5_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_6_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_7_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_8_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_6\team_9_wk_6_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_7\team_10_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_11_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_12_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_1_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_2_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_3_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_4_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_5_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_6_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_7_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_8_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_7\team_9_wk_7_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_8\team_10_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_11_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_12_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_1_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_2_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_3_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_4_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_5_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_6_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_7_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_8_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_8\team_9_wk_8_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\placeholder.json" />
+    <Content Include="yahoodata\rosters\week_9\team_10_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_11_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_12_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_1_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_2_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_3_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_4_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_5_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_6_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_7_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_8_wk_9_roster.json" />
+    <Content Include="yahoodata\rosters\week_9\team_9_wk_9_roster.json" />
+    <Content Include="yahoodata\standings.json" />
+    <Content Include="yahoodata\teams\team_mapping_full.txt" />
+    <Content Include="yahoodata\teams\team_mapping_initials.txt" />
+    <Content Include="yahoodata\teams\team_numbers.txt" />
+    <Content Include="yahoodata\templates\yahoodata\index.html" />
+    <Content Include="yahoodata\transactions\Transaction_new.json" />
+    <Content Include="yahoodata\transactions\Transaction_old.json" />
+    <Content Include="yahoodata\weekly_players\placeholder.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_10scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_11scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_12scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_13scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_14scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_15scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_16scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_1scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_2scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_3scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_4scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_5scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_6scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_7scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_8scoreboard.json" />
+    <Content Include="yahoodata\weekly_scoreboard\week_9scoreboard.json" />
+    <Content Include="yahoodata\YahooGameInfo.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.html">
+      <SubType>WebBrowser</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

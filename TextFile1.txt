@@ -1,0 +1,3 @@
+super user:
+user: admin
+password: ilovetds
